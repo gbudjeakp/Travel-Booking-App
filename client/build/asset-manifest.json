@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.4c76c487.chunk.css",
-    "main.js": "/static/js/main.af93928e.chunk.js",
-    "main.js.map": "/static/js/main.af93928e.chunk.js.map",
+    "main.js": "/static/js/main.90286e94.chunk.js",
+    "main.js.map": "/static/js/main.90286e94.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f49b074.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f49b074.js.map",
-    "static/js/2.40b47c22.chunk.js": "/static/js/2.40b47c22.chunk.js",
-    "static/js/2.40b47c22.chunk.js.map": "/static/js/2.40b47c22.chunk.js.map",
+    "static/js/2.01f5d1d3.chunk.js": "/static/js/2.01f5d1d3.chunk.js",
+    "static/js/2.01f5d1d3.chunk.js.map": "/static/js/2.01f5d1d3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.4c76c487.chunk.css.map": "/static/css/main.4c76c487.chunk.css.map",
-    "static/js/2.40b47c22.chunk.js.LICENSE.txt": "/static/js/2.40b47c22.chunk.js.LICENSE.txt",
+    "static/js/2.01f5d1d3.chunk.js.LICENSE.txt": "/static/js/2.01f5d1d3.chunk.js.LICENSE.txt",
     "static/media/238.cc5934c6.gif": "/static/media/238.cc5934c6.gif",
     "static/media/TB logo.d2d73f29.png": "/static/media/TB logo.d2d73f29.png",
     "static/media/air-canada-logo.e751c6dc.jpeg": "/static/media/air-canada-logo.e751c6dc.jpeg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f49b074.js",
-    "static/js/2.40b47c22.chunk.js",
+    "static/js/2.01f5d1d3.chunk.js",
     "static/css/main.4c76c487.chunk.css",
-    "static/js/main.af93928e.chunk.js"
+    "static/js/main.90286e94.chunk.js"
   ]
 }
