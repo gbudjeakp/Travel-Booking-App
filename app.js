@@ -64,7 +64,7 @@ mongoose.connect(url, {
   useCreateIndex: true
 });
 
-app.listen(process.env.PORT || 3001, () => {
+app.listen(process.env.PORT || 5001, () => {
   console.log(`Express SERVER listening on port ${process.env.PORT} `);
 });
 

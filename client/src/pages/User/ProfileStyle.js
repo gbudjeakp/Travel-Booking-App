@@ -68,7 +68,7 @@ export const useStyles = makeStyles((theme) => ({
     listStyle: "none",
     fontWeight: "bold",
     textDecoration: "none",
-    fontSize: ".9em",
+    fontSize: "0.9rem",
     color: "#c5bec4",
     margin: "1em 0 1em",
     padding: "0.5em 0",
