@@ -3,7 +3,7 @@ This is a trips planning application that let's users book flights, hotels and r
 
 #Tech Stack 
 
-## How to run Database Locally
+## How to run Server Locally
 Run `npm run dev ` to start the server and establish Database connection. 
 
 ## How to Front-End Locally
