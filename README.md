@@ -1,7 +1,12 @@
 # Travel Booking
 This is a trips planning application that let's users book flights, hotels and rents cars for their trips. The apllication uses the SkyScanner API. The application was built in an Agile team with a group of 4 developers.
 
-#Tech Stack 
+# Technologies Used 
+<li>React</li>
+<li>Node</li>
+<li>MongoDB</li>
+<li>Express</li>
+<li>BootStrap</li>
 
 ## How to run Server Locally
 Run `npm run dev ` to start the server and establish Database connection. 
