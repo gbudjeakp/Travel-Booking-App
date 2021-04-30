@@ -56,7 +56,7 @@ const makePayment = async (req, res) => {
       line_items: lineItems,
       mode: "payment",
       success_url: "https://radiant-dusk-36662.herokuapp.com/payment-success",
-      cancel_url: "https://radiant-dusk-36662.herokuapp.com/localhost:3000/payment-error",
+      cancel_url: "https://radiant-dusk-36662.herokuapp.com/payment-error",
     });
 
     res.json({ id: session.id });
