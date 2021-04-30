@@ -3,7 +3,7 @@ This is a trips planning application that let's users book flights, hotels and r
 
 # Technologies Used 
 <li>React</li>
-<li>React-COntext API</li>
+<li>React-Context API</li>
 <li>Node</li>
 <li>MongoDB</li>
 <li>Express</li>
@@ -17,3 +17,4 @@ Run `npm run dev ` to start the server and establish Database connection.
 ## How to Front-End Locally
 Change directory to `client` and run `npm start ` to start the front-end server.
 
+# App features
