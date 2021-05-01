@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8131d7db.chunk.css",
+    "main.js": "/static/js/main.fb7fdf27.chunk.js",
+    "main.js.map": "/static/js/main.fb7fdf27.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.03887cff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.03887cff.js.map",
+    "static/js/2.1e763fe8.chunk.js": "/static/js/2.1e763fe8.chunk.js",
+    "static/js/2.1e763fe8.chunk.js.map": "/static/js/2.1e763fe8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8131d7db.chunk.css.map": "/static/css/main.8131d7db.chunk.css.map",
+    "static/js/2.1e763fe8.chunk.js.LICENSE.txt": "/static/js/2.1e763fe8.chunk.js.LICENSE.txt",
+    "static/media/238.cc5934c6.gif": "/static/media/238.cc5934c6.gif",
+    "static/media/TB logo.d2d73f29.png": "/static/media/TB logo.d2d73f29.png",
+    "static/media/air-canada-logo.e751c6dc.jpeg": "/static/media/air-canada-logo.e751c6dc.jpeg",
+    "static/media/airCanada.89ec6b60.jpg": "/static/media/airCanada.89ec6b60.jpg",
+    "static/media/american-airlines-logo.b6ae18bc.jpeg": "/static/media/american-airlines-logo.b6ae18bc.jpeg",
+    "static/media/birdseye-beach.fe773520.jpeg": "/static/media/birdseye-beach.fe773520.jpeg",
+    "static/media/delta-logo.59e7a63a.png": "/static/media/delta-logo.59e7a63a.png",
+    "static/media/depart.018e6622.png": "/static/media/depart.018e6622.png",
+    "static/media/hotel-room.44323236.png": "/static/media/hotel-room.44323236.png",
+    "static/media/hotel.f25d33c9.jpeg": "/static/media/hotel.f25d33c9.jpeg",
+    "static/media/jetBlue-logo.2a4b3e00.jpeg": "/static/media/jetBlue-logo.2a4b3e00.jpeg",
+    "static/media/landingPage.7e34f61c.jpeg": "/static/media/landingPage.7e34f61c.jpeg",
+    "static/media/upload.16256dd0.png": "/static/media/upload.16256dd0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03887cff.js",
+    "static/js/2.1e763fe8.chunk.js",
+    "static/css/main.8131d7db.chunk.css",
+    "static/js/main.fb7fdf27.chunk.js"
+  ]
+}
