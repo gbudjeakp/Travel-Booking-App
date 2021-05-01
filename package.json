@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "0.0.0",
-  "homepage":"https://radiant-dusk-36662.herokuapp.com/",
   "private": true,
   "main": "app.js",
   "scripts": {
