@@ -45,7 +45,6 @@ app.get('*', (req, res, next) => {
     req.headers['x-forward-proto'] !== 'https' &&
     process.env.NODE_ENV === 'production'
   ) {
-    res.redirect('https://' + req.headers.host + req.url);
     res.sendFile(path.join(publicPath, 'index.html'));
   } else {
     next();
