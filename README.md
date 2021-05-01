@@ -27,28 +27,28 @@ Change directory to `client` and run `npm start ` to start the front-end server.
 # You can make this whatever
 JWT_SECRET= ''
 
-# obtained from mongoDB
+# obtain from mongoDB
 MONGO_URL= ''
 
-# obtained from SkyscannerAPI
+# obtain from SkyscannerAPI
 RAPID_API_KEY= ''
 RAPID_API_HOST= ''
 
-# obtained from Sengrid API(see Adding API Key Dependencies)
+# obtain from Sengrid API
 SENDGRID_API_KEY= ''
 EMAIL= ''
 
-# obtained from AWS
+# obtain from AWS
 AWS_SECRET_ACCESS_KEY=''
 AWS_ACCESS_KEY_ID=''
 
-# obtained from Stripe
+# obtain from Stripe
 STRIPE_SK=''
 STRIPE_PK=''
 ```
 You must also create a .env file in /client
 ```bash
-# obtained from Stripe
+# obtain from Stripe
 REACT_APP_STRIPE_SK= ''
 REACT_APP_STRIPE_PK
 
@@ -58,7 +58,7 @@ REACT_APP_EMAIL= ''
 
 
 # App features
-Let's Users Book flights, Rent Hotels and Cars to different cities around the world. The APp let's users make payment via Stripe
+Let's Users Book flights, Rent Hotels and Cars to different cities around the world. The app let's users make payment via Stripe. It allows users to select their favourite cities, edit that account details. It has a section that stores the users itinerary and past trips.
 
 # Preview of App ![travel-booking](https://user-images.githubusercontent.com/61554248/116787663-04949100-aa6b-11eb-9155-fe597eb4dfab.gif)
 
