@@ -27,7 +27,7 @@ app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(trim);
 app.use(cookieParser());
-app.use(express.static(join(__dirname, "/public")));
+app.use(express.static(join(__dirname, "public")));
 
 app.use("/api/users", userRoutes);
 app.use("/api/flights", flightRouter);
