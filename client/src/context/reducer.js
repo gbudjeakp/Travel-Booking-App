@@ -66,11 +66,6 @@ export const userReducer = (state = initialState, action) => {
         cart: { flights: [], hotels: [], rentalCar: [] },
         cities: [],
       };
-    case "GET_CITIES":
-      return {
-        ...state,
-        cities: action.payload,
-      };
       case "USER_INFORMATION_UPDATED":
       return {
         ...state,
