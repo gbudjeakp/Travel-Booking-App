@@ -53,7 +53,7 @@ AWS_ACCESS_KEY_ID=''
 STRIPE_SK=''
 STRIPE_PK=''
 ```
-You must also create a .env file in /client
+You should also create a .env file in /client folder
 ```bash
 # obtain from Stripe
 REACT_APP_STRIPE_SK= ''
