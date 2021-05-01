@@ -19,6 +19,8 @@ const trim = require("./middleware/trim");
 //Added mongoose to help connect with our Mongodb database
 const mongoose = require("mongoose");
 const { json, urlencoded } = express;
+const publicPath = path.join(__dirname, 'build');
+
 const app = express();
 
 app.use(cors({ origin: true, credentials: true }));
@@ -37,12 +39,18 @@ app.use("/api", uploadRouter);
 app.use("/api/checkout", checkoutPayment);
 app.use("/api/itinerary", itineraryRouter);
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("../client/build"));
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "client", "public", "index.html"));
-  });
-}
+
+app.get('*', (req, res, next) => {
+  if (
+    req.headers['x-forward-proto'] !== 'https' &&
+    process.env.NODE_ENV === 'production'
+  ) {
+    res.redirect('https://' + req.headers.host + req.url);
+    res.sendFile(path.join(publicPath, 'index.html'));
+  } else {
+    next();
+  }
+});
 
 app.use(function (req, res, next) {
   next(createError(404));
