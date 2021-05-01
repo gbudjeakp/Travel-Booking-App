@@ -27,7 +27,7 @@ app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(trim);
 app.use(cookieParser());
-app.use('/static', express.static(path.join(__dirname, 'client/build')));
+app.use('/static', express.static(path.join(__dirname, 'public')))
 
 app.use("/api/users", userRoutes);
 app.use("/api/flights", flightRouter);
@@ -38,11 +38,12 @@ app.use("/api/checkout", checkoutPayment);
 app.use("/api/itinerary", itineraryRouter);
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("../client/build"));
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
+  app.use(express.static(__dirname + "/client/build"));
+  app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname + "/client/build/index.html"));
   });
 }
+
 
 app.use(function (req, res, next) {
   next(createError(404));
