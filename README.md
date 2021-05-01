@@ -1,6 +1,13 @@
 # Travel Booking
 This is a trips planning application that let's users book flights, hotels and rents cars for their trips. The apllication uses the SkyScanner API. The application was built in an Agile team with a group of 4 developers.
 
+# App features
+Let's Users Book flights, Rent Hotels and Cars to different cities around the world. The app let's users make payment via Stripe. It allows users to select their favourite cities, edit that account details. It has a section that stores the users itinerary and past trips.
+
+
+# Preview of App ![travel-booking](https://user-images.githubusercontent.com/61554248/116787663-04949100-aa6b-11eb-9155-fe597eb4dfab.gif)
+
+
 # Contributing Developers
 Built by  [Sebastian](https://github.com/gbudjeakp), [Shay](https://github.com/newCodeWriter) [Ray](https://github.com/BoomBoomRay), [Tojonirina](https://github.com/Tojonirina4)
 
@@ -55,11 +62,4 @@ REACT_APP_STRIPE_PK
 # email used in Sengrid account
 REACT_APP_EMAIL= ''
 ```
-
-
-# App features
-Let's Users Book flights, Rent Hotels and Cars to different cities around the world. The app let's users make payment via Stripe. It allows users to select their favourite cities, edit that account details. It has a section that stores the users itinerary and past trips.
-
-# Preview of App ![travel-booking](https://user-images.githubusercontent.com/61554248/116787663-04949100-aa6b-11eb-9155-fe597eb4dfab.gif)
-
 
