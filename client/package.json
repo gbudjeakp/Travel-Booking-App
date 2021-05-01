@@ -10,6 +10,7 @@
     "@material-ui/lab": "^4.0.0-alpha.57",
     "@material-ui/pickers": "^3.3.10",
     "@stripe/stripe-js": "^1.13.1",
+    "caniuse-lite": "^1.0.30001219",
     "classnames": "^2.2.6",
     "date-fns": "^2.19.0",
     "loadash": "^1.0.0",
