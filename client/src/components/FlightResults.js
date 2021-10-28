@@ -84,19 +84,19 @@ const FlightResults = ({ data }) => {
 				>
 					{filter
 						? data.flights.Quotes.filter(
-								(quote) =>
-									quote.MinPrice >= filter.min && quote.MinPrice <= filter.max
-						  ).map((quote) => (
+								(quotes) =>
+									quotes.MinPrice >= filter.min && quotes.MinPrice <= filter.max
+						  ).map((quotes) => (
 								<FlightAccordion
-									key={quote.QuoteId}
-									quote={quote}
+									key={quotes.QuoteId}
+									quote={quotes}
 									cities={cities}
 								/>
 						  ))
-						: data.flights.Quotes.map((quote) => (
+						: data.flights.Quotes.map((quotes) => (
 								<FlightAccordion
-									key={quote.QuoteId}
-									quote={quote}
+									key={quotes.QuoteId}
+									quote={quotes}
 									cities={cities}
 								/>
 						  ))}
