@@ -25,9 +25,8 @@ const prices = {
 	],
 };
 
-const FlightResults = ({ data }) => {
+const FlightResults = ( data ) => {
 	const classes = useStyles();
-
 	const [price, setPrice] = useState("");
 	const [filter, setFilter] = useState("");
 
@@ -48,7 +47,7 @@ const FlightResults = ({ data }) => {
 
 	return (
 		<>
-			<Container className={classes.flightInfoContainer}>
+		{data.length > 0 ? 	<Container className={classes.flightInfoContainer}>
 				<Typography variant="h4" paragraph className={classes.bottomHeader}>
 					Best departing flights
 				</Typography>
@@ -101,7 +100,8 @@ const FlightResults = ({ data }) => {
 								/>
 						  ))}
 				</Grid>
-			</Container>
+			</Container> : <p>Hold on While We fetch your Data</p>}
+			
 		</>
 	);
 };
