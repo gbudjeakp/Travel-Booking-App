@@ -37,7 +37,7 @@ export const getReciept = (data, email) => {
 
   return {
     from: {
-      email: process.env.REACT_APP_EMAIL,
+      email: "sebdwebdev@gmail.com",
     },
     personalizations: [
       {

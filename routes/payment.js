@@ -59,6 +59,13 @@ const makePayment = async (req, res) => {
       cancel_url: "https://radiant-dusk-36662.herokuapp.com/payment-error",
     });
 
+    // success_url: "https://radiant-dusk-36662.herokuapp.com/payment-success",
+    // cancel_url: "https://radiant-dusk-36662.herokuapp.com/payment-error",
+
+    // http://localhost:3000
+    // http://localhost:3000/payment-success
+    // http://localhost:3000/payment-error
+
     res.json({ id: session.id });
   } else {
     session = await stripe.checkout.sessions.create({
