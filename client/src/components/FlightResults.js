@@ -30,6 +30,8 @@ const FlightResults = ( data ) => {
 	const [price, setPrice] = useState("");
 	const [filter, setFilter] = useState("");
 
+
+	
 	const cities = { from: data.flights.From, to: data.flights.To };
 
 	const handlePriceChange = (event) => {
@@ -47,7 +49,7 @@ const FlightResults = ( data ) => {
 
 	return (
 		<>
-		{data.length > 0 ? 	<Container className={classes.flightInfoContainer}>
+		{data.length && cities.length > 0 ? <Container className={classes.flightInfoContainer}>
 				<Typography variant="h4" paragraph className={classes.bottomHeader}>
 					Best departing flights
 				</Typography>
