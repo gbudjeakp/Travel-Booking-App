@@ -9,7 +9,7 @@ Let's Users Book flights, Rent Hotels and Cars to different cities around the wo
 
 
 # Contributing Developers
-Built by  [Sebastian](https://github.com/gbudjeakp), [Shay](https://github.com/newCodeWriter) [Ray](https://github.com/BoomBoomRay), [Tojonirina](https://github.com/Tojonirina4)
+Built by  [Sebastian](https://github.com/gbudjeakp), [Shay](https://github.com/newCodeWriter), [Ray](https://github.com/BoomBoomRay), [Tojonirina](https://github.com/Tojonirina4)
 
 
 # Technologies Used 
